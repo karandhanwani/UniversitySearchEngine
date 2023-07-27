@@ -13,8 +13,8 @@ public class SearchEngine {
 		String links="https://www.universitystudy.ca/canadian-universities/";
 		boolean keepSearching = true;
 		webCrawler web=new webCrawler();
-//		web.crawl(links);  		
-//		htmltotext.Html2text();
+		web.crawl(links);  		
+		htmltotext.Html2text();
 		//Conversion finished from html to text
 
 		// User Interaction start 

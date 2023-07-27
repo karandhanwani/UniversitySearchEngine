@@ -15,7 +15,7 @@ public class webCrawler {
 
     private static final String BASE_URL = "https://www.universitystudy.ca/canadian-universities/";
     private static final String OUTPUT_DIRECTORY = "D:\\windsor summer 2023 term 1\\8547 files advanced computing concepts\\project\\CrwaledPages\\";
-    private static final int MAX_PAGES = 5; // Maximum number of pages to crawl
+    private static final int MAX_PAGES = 600; // Maximum number of pages to crawl
 
     public static void main(String[] args) {
         crawl(BASE_URL);
